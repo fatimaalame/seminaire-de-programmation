@@ -16,3 +16,5 @@ local.properties
 
 # Large GTFS timetable data
 CW2_Ticket2Ride/data/gtfs_fp2026_20261118/
+CW2_Ticket2Ride/data/gtfs_fp2026_20261118/
+CW2_Ticket2Ride/data/*.zip
