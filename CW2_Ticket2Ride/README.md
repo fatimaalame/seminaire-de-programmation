@@ -12,7 +12,7 @@ The second one is the Swiss Public Transport Timetable (GTFS). This one provides
 ## Our 5 scénarios
 
 ### 1. The busiest station
-    We looked for the 10 busiest stations in Switzerland by examing the evolution of PF from 2018 to 2025, calculated the percentage changes, showed the graph and discussed the results
+    We looked for the 10 busiest stations in Switzerland in the year 2025, used a bar chart (see ref 4 and 5) and showed the result. 
    
 ### 2. Cornavin's story
     How did the traffic at Cornavin change over time ? We also showed the evolution of PF (2018-2025), and analysed it. 
@@ -24,12 +24,12 @@ The second one is the Swiss Public Transport Timetable (GTFS). This one provides
     What if we want to explore a specific station? To do that, we created a function (analyser_gare()) that allows users to enter a station name and display its available passenger statiscits (+ its graph) 
     
 ### 5.  Passenger power
-    Does a station with more passengers also have more scheduled train departures? We're answering by comparing the PF data with the SBB timetable informations we found on GTFS. 
+    Does a station with more passengers also have more scheduled train stops? We're answering by comparing the PF data with the SBB timetable informations we found on GTFS. 
 
 ## How to run the notebook?
 1. Download or clone the repo
 2. Open the folder (CW2_Ticket2Ride)
-3. Make sure you got Pyhton, Pandas, Matplotlib and Jupyterlab installed
+3. Make sure you got Python, Pandas, Matplotlib and Jupyterlab installed
 4. Write "Jupyter lab" in the terminal (it should open a tab with a local server)
 5. Run the notebook cells in order
 
@@ -37,6 +37,7 @@ For info, the csv files should remain inside the data/folder and also (again) so
 
 ## Limitations 
 Our passenger frequency data set doesnt have infos on the years 2019 to 2021 so we couldnt analyse the changes during those years (it creates a gap). And also, the PF represents the average daily boardings and alightings not the count of unique passengers (although we understand that would be quite difficult to do so). 
+The gtfs file is very big so you'll need to get it separately. And finally, for the last scenario, we compared PF from 2025 with the scheduled train stops from one day in 2026, using only 5 stations. Therefore our results should be interpreted carefully.
 
 ## Acknowledgements 
 We would like to thank SBB Open Data and Open Transport Data Switzerland for making these datasets publicly available. And, this project was developed for an academic assignment at the UNIGE. It's not an official SBB project! 
